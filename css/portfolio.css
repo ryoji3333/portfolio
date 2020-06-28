@@ -1,14 +1,37 @@
+.title-area{
+  height: 100vh;
+  background: gray;
+  position: relative;
+}
+
 .title{
-  width: 500px;
-  margin: 0 auto;
+  width: 700px;
+  margin:0 auto;
+  /* background: red; */
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
 }
 
 .title-top{
-  font-size: 40px;
-  font-weight: 600;
 }
 
 .title-bottom{
+  margin-top: 15px;
+}
+
+.fa-chevron-down{
   font-size: 40px;
-  font-weight: 600;
+  color: white;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
 }
