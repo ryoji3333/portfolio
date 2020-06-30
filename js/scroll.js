@@ -4,9 +4,51 @@ $(function() {
 });
 
 window.addEventListener('DOMContentLoaded', function(){
-  ScrollReveal().reveal('.profile-title,.profile-form,.estate-detail-title,.estate-detail,.pro-detail-title,.pro-detail',{
+  ScrollReveal().reveal('.profile-form,.estate-detail-title,.estate-detail,.pro-detail-title,.pro-detail',{
     delay: 500,
     distance: '40px',
+    origin: 'bottom'
+  });
+});
+
+window.addEventListener('DOMContentLoaded', function(){
+  ScrollReveal().reveal('.profile-title',{
+    delay: 500,
+  });
+});
+
+window.addEventListener('DOMContentLoaded', function(){
+  ScrollReveal().reveal('.profile-title-border-top',{
+    delay: 900,
+    duration: 1000,
+    distance: '400px',
+    origin: 'left'
+  });
+});
+
+window.addEventListener('DOMContentLoaded', function(){
+  ScrollReveal().reveal('.profile-title-border-right',{
+    delay: 900,
+    duration: 1000,
+    distance: '400px',
+    origin: 'top'
+  });
+});
+
+window.addEventListener('DOMContentLoaded', function(){
+  ScrollReveal().reveal('.profile-title-border-bottom',{
+    delay: 900,
+    duration: 1000,
+    distance: '400px',
+    origin: 'right'
+  });
+});
+
+window.addEventListener('DOMContentLoaded', function(){
+  ScrollReveal().reveal('.profile-title-border-left',{
+    delay: 900,
+    duration: 1000,
+    distance: '400px',
     origin: 'bottom'
   });
 });
@@ -20,6 +62,12 @@ window.addEventListener('DOMContentLoaded', function(){
 
 window.addEventListener('DOMContentLoaded', function(){
   ScrollReveal().reveal('.skillbar-form',{
+    delay: 500,
+  });
+});
+
+window.addEventListener('DOMContentLoaded', function(){
+  ScrollReveal().reveal('.skillbar-inner',{
     delay: 500,
     distance: '400px',
     origin: 'bottom'
