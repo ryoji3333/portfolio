@@ -5,7 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="stylesheet" type="text/css" href="css/portfolio.css">
   <link rel="stylesheet" type="text/css" href="css/destyle.css">
+  <link rel="stylesheet" href="css/skillbar.css">
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script type="text/javascript" src="js/scroll.js"></script>
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/skill.bars.jquery.js"></script>
+  <script type="text/javascript" src="js/skillbar-set.js"></script>
 	<title>Ryoji Zenshige Portfolio site</title>
 </head>
 <body>
@@ -25,35 +33,71 @@
 
 <div class="profile-area">
   <div class="profile-title">
-    Profile
+    <span class="profile-title-marker">
+      Profile
+    </span>
   </div>
-  <div class="profile-list">
-    Profile
-    氏名：善重 亮治（Ryoji Zenshige）
-    年齢：30歳
-    趣味：漫画、ゲーム
-    経歴：不動産管理会社にて営業職に3年間従事。プログラミングスクール「TECH CAMP」にてプログラミングを学習。
-    プログラミングスキル：HTML,CSS,javascript,jQuery,Ruby,Ruby on Rails
-  </div>
-  <div class="profile-detail">
+  <div class="profile-form">
+    <div class="profile-list">
+      <div class="profile-list-border"></div>
+      <div class="profile-name-form">
+        <span class="profile-name">
+          善重 亮治
+        </span>
+        <span class="profile-rome">
+          （Ryoji Zenshige）
+        </span>
+      </div>
+      <div class="profile-bottom">
+        <table class="profile-table">
+          <tr>
+          <th><i class="fas fa-male"></i><span class="table-left">年齢：</span></td>
+          <td>30歳</td>
+          </tr>
+          <tr>
+          <th><i class="fas fa-book"></i><span class="table-left">趣味：</span></th>
+          <td>漫画、ゲーム</td>
+          </tr>
+          <tr>
+          <th><i class="far fa-address-card"></i><span class="table-left">経歴：</span></th>
+          <td>不動産管理会社に営業職として3年間従事。プログラミングスクール「TECH CAMP」にてプログラミングを学習。</td>
+          </tr>
+          <tr>
+          <th><i class="fas fa-code"></i><span class="table-left">スキル：</span></th>
+          <td>HTML,CSS,javascript,jQuery,Ruby,Ruby on Rails</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="profile-detail">
+      Webエンジニアを目指しています。
+      <div class="profile-detail-border"></div>
+    </div>
   </div>
 </div>
 
 <div class="estate-main-headline">
-  Real estate management and sales
+  Sales and Management Skill
 </div>
 
 <div class="estate-area">
   <div class="estate-title">
-   experience
+    REAL ESTATE<br>
+    SALES EXPERIENCE<br>
+  </div>
+  <div class="estate-detail-title">
+    -不動産管理営業の経験-
   </div>
   <div class="estate-detail">
     大手不動産管理会社にて、賃貸住宅の管理営業として３年間勤務していました。・業務内容や実績
   </div>
   <div class="estate-img">
   </div>
+</div>
+<div calss="estate-skill-form">
   <div class="estate-skill">
     <div class="estate-skill1">
+      <div class="estate-skill1-img"></div>
       <div class="estate-skill1-headline">
         営業スキル
       </div>
@@ -62,6 +106,7 @@
       </div>
     </div>
     <div class="estate-skill2">
+      <div class="estate-skill2-img"></div>
       <div class="estate-skill2-headline">
         関係構築力
       </div>
@@ -70,6 +115,7 @@
       </div>
     </div>
     <div class="estate-skill3">
+      <div class="estate-skill3-img"></div>
       <div class="estate-skill3-headline">
         クレーム対応力
       </div>
@@ -81,28 +127,92 @@
 </div>
 
 <div class="pro-main-headline">
-  Programming
+  Programming Skill
 </div>
 
-<div class="pro-title">
-  Coding
- </div>
- <div class="pro-detail">
-  プログラミングスクール「TECH CAMP」にて約３ヶ月間プログラミングを学習。HTMLやCSSなどのフロントエンドだけでなく、Ruby・Railsなどのバックエンド側の処理やDBの作成、AWSを用いたアプリケーションのデプロイなど、WEBアプリケーションを作成する方法を１から最後までトータル的に学習しました。
- </div>
- <div class="pro-img">
+<div class="pro-area">
+  <div class="pro-title">
+    PROGRAMMING<br>
+    EXPERIENCE
+  </div>
+  <div class="pro-detail-title">
+    -プログラミング技術について-
+  </div>
+  <div class="pro-detail">
+    プログラミングスクール「TECH CAMP」にて約３ヶ月間プログラミングを学習。HTMLやCSSなどのフロントエンドだけでなく、Ruby・Railsなどのバックエンド側の処理やDBの作成、AWSを用いたアプリケーションのデプロイなど、WEBアプリケーションを作成する方法を１から最後までトータル的に学習しました。
+  </div>
+  <div class="pro-img">
+  </div>
+</div>
+
+<div class="skillbar-form">
+  <div class="skillbar-headline">
+    -プログラミングスキル習熟度-
+  </div>
+  <div class="skillbar-inner">
+    <div class="skillbar-left">
+      <div class="skillbar skillbar-html" data-percent="90">
+        <div class="skillbar-title">HTML</div>
+        <div class="skillbar-bar"></div>
+        <div class="skill-bar-percent"></div>
+      </div>
+      <div class="skillbar skillbar-css" data-percent="80">
+        <div class="skillbar-title">CSS</div>
+        <div class="skillbar-bar"></div>
+        <div class="skill-bar-percent"></div>
+      </div>
+      <div class="skillbar skillbar-ruby" data-percent="60">
+        <div class="skillbar-title">Ruby</div>
+        <div class="skillbar-bar"></div>
+        <div class="skill-bar-percent"></div>
+      </div>
+    </div>
+    <div class="skillbar-right">
+      <div class="skillbar skillbar-js" data-percent="30">
+        <div class="skillbar-title">JavaScript</div>
+        <div class="skillbar-bar"></div>
+        <div class="skill-bar-percent"></div>
+      </div>
+      <div class="skillbar skillbar-jquery" data-percent="50">
+        <div class="skillbar-title">jQuery</div>
+        <div class="skillbar-bar"></div>
+        <div class="skill-bar-percent"></div>
+      </div>
+      <div class="skillbar skillbar-rails" data-percent="50">
+        <div class="skillbar-title">Ruby on Rails</div>
+        <div class="skillbar-bar"></div>
+        <div class="skill-bar-percent"></div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="work-main-headline">
   Works
 </div>
-<div class="app-list">
-  <div class="furima">
-    フリマ
-  </div>
-  <div class="plando">
-    ぷらんどぅ
+<div class="work-area">
+  <div class="app-list">
+    <div class="app-left">
+      <div class="furima">
+        フリマ
+      </div>
+      <div class="furima-detail">
+        「TECH CAMP」のグループ開発で作成した、メルカリのコピーアプリ。
+      </div>
+    </div>
+    <div class="app-right">
+      <div class="plando">
+        ぷらんどぅ
+      </div>
+      <div class="plando-detail">
+        フロントエンドからバックエンドまで全て個人で作成した、タスクをカード形式で管理することができるタスク管理アプリ。
+      </div>
+    </div>
   </div>
 </div>
+
+<footer class="footer">
+  Thanks for watching!
+</footer>
 </body>
 </html>
