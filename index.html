@@ -14,9 +14,14 @@
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/skill.bars.jquery.js"></script>
   <script type="text/javascript" src="js/skillbar-set.js"></script>
+  <script src="js/dropdown.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/scroll-move.js"></script>
 	<title>Ryoji Zenshige Portfolio site</title>
 </head>
 <body>
+
+<div id="top"></div>
 <div class="title-area">
   <div class="title">
     <div class="title-top">
@@ -31,11 +36,15 @@
   </div>
 </div>
 
-<div class="profile-area">
+
+<div id="profile"></div>
+<div class="profile-area",>
   <div class="profile-title">
-    <span class="marker_yellow">
-      Profile
-    </span>
+    <div class="profile-title-border-top"></div>
+    <div class="profile-title-border-right"></div>
+    <div class="profile-title-border-bottom"></div>
+    <div class="profile-title-border-left"></div>
+    Profile
   </div>
   <div class="profile-form">
     <div class="profile-list">
@@ -76,8 +85,9 @@
   </div>
 </div>
 
+<div id="sales"></div>
 <div class="estate-main-headline">
-  Sales and Management Skill
+  Sales Skill
 </div>
 
 <div class="estate-area">
@@ -87,7 +97,7 @@
   </div>
   <div class="estate-detail-title">
     <span class="marker_yellow">
-      -不動産管理営業の経験-
+      -不動産管理営業職の経験について-
     </span>
   </div>
   <div class="estate-detail">
@@ -96,44 +106,44 @@
   <div class="estate-img">
   </div>
 </div>
-<div calss="estate-skill-form">
-  <div class="estate-skill">
-    <div class="estate-skill1">
-      <div class="estate-skill1-img"></div>
-      <div class="estate-skill1-headline">
-        <span class="marker_orange">
-          営業スキル
-        </span>
-      </div>
-      <div class="estate-skill1-explanation">
-        オーナー様へのリノベーション提案や他社管理物件から管理切り替えの提案など物件オーナー様に対する営業活動や、不動産業者とのパートナー契約の提案や入居斡旋依頼など企業に対する営業活動を行ってきました。
-      </div>
+
+<div class="estate-skill">
+  <div class="estate-skill1">
+    <div class="estate-skill1-img"></div>
+    <div class="estate-skill1-headline">
+      <span class="marker_orange">
+        営業スキル
+      </span>
     </div>
-    <div class="estate-skill2">
-      <div class="estate-skill2-img"></div>
-      <div class="estate-skill2-headline">
-        <span class="marker_lime">
-          関係構築力
-        </span>
-      </div>
-      <div class="estate-skill2-explanation">
-        オーナー様と　不動産業者との関係
-      </div>
+    <div class="estate-skill1-explanation">
+      オーナー様へのリノベーション提案や他社管理物件から管理切り替えの提案など物件オーナー様に対する営業活動や、不動産業者とのパートナー契約の提案や入居斡旋依頼など企業に対する営業活動を行ってきました。
     </div>
-    <div class="estate-skill3">
-      <div class="estate-skill3-img"></div>
-      <div class="estate-skill3-headline">
-        <span class="marker_water">
-          クレーム対応力
-        </span>
-      </div>
-      <div class="estate-skill3-explanation">
-        賃貸住宅の管理会社の元には管理物件に関するクレームが毎日10件以上寄せられてきます
-      </div>
+  </div>
+  <div class="estate-skill2">
+    <div class="estate-skill2-img"></div>
+    <div class="estate-skill2-headline">
+      <span class="marker_lime">
+        関係構築力
+      </span>
+    </div>
+    <div class="estate-skill2-explanation">
+      オーナー様と　不動産業者との関係
+    </div>
+  </div>
+  <div class="estate-skill3">
+    <div class="estate-skill3-img"></div>
+    <div class="estate-skill3-headline">
+      <span class="marker_water">
+        クレーム対応力
+      </span>
+    </div>
+    <div class="estate-skill3-explanation">
+      賃貸住宅の管理会社の元には管理物件に関するクレームが毎日10件以上寄せられてきます
     </div>
   </div>
 </div>
 
+<div id="programming"></div>
 <div class="pro-main-headline">
   Programming Skill
 </div>
@@ -197,6 +207,7 @@
   </div>
 </div>
 
+<div id="works"></div>
 <div class="work-main-headline">
   Works
 </div>
@@ -218,6 +229,23 @@
         フロントエンドからバックエンドまで全て個人で作成した、タスクをカード形式で管理することができるタスク管理アプリ。
       </div>
     </div>
+  </div>
+</div>
+
+<div class="menu-form">
+  <a href="" class="menu-trigger" id="menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </a>
+  <div class="menu-list-form">
+    <ul class="menu-list">
+      <a href="#top"><li>Top</li></a>
+      <a href="#profile"><li>Profile</li></a>
+      <a href="#sales"><li>Sales Skill</li></a>
+      <a href="#programming"><li>Programming Skill</li></a>
+      <a href="#works"><li>Works</li></a>
+    </ul>
   </div>
 </div>
 
