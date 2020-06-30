@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+	padding:0;
+	margin:0;
+}
+h1
+{
+	width:100%;
+	display:inline-block;
+	text-align:center;
+	margin:50px 0
+}
+.wrapper
+{
+	max-width:1200px;
+	width:90%;
+	margin:0 auto;
+}
+
+/* Skills bar effects */
+
+.skillbar {
+	position:relative;
+	display:inline-block;
+	margin:15px 0;
+	width:100%;
+	background:#eee;
+	height:35px;
+	border-radius:3px;
+	width:100%;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#6adcfa;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	background: orange;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	display:inline-block;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:16px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+}
+
+.skillbar-html .skillbar-title {
+  background: #98A51C;
+}
+.skillbar-html .skillbar-bar {
+  background: #98A51C;
+}
+.skillbar-css .skillbar-title {
+  background: #0C73B8;
+}
+.skillbar-css .skillbar-bar {
+  background: #0C73B8;
+}
+.skillbar-js .skillbar-title {
+  background: #E5A228;
+}
+.skillbar-js .skillbar-bar {
+  background: #E5A228;
+}
+
+.skillbar-jquery .skillbar-title {
+  background: #5D86FF;
+}
+.skillbar-jquery .skillbar-bar {
+  background: #5D86FF;
+}
+
+.skillbar-ruby .skillbar-title {
+  background: #d35400;
+}
+.skillbar-ruby .skillbar-bar {
+  background: #d35400;
+}
+
+.skillbar-rails .skillbar-title {
+  background: #F43E43;
+}
+.skillbar-rails .skillbar-bar {
+  background: #F43E43;
+}

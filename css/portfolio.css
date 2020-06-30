@@ -1,15 +1,20 @@
+*{
+
+}
+
 body {
-  background-image: url("/Users/zenshigeryoji/projects/portfolio/img/b064.gif");
+  background-image: url("/Users/zenshigeryoji/projects/portfolio/img/b065.gif");
 }
 
 .title-area{
   height: 100vh;
-  background: gray;
+  background-image: url('/Users/zenshigeryoji/projects/portfolio/img/top-image.jpg');
+  background-size: cover;
   position: relative;
 }
 
 .title{
-  width: 700px;
+  width: 600px;
   margin:0 auto;
   text-align: center;
   color: white;
@@ -20,6 +25,9 @@ body {
   left: 50%;
   -webkit-transform : translate(-50%,-50%);
   transform : translate(-50%,-50%);
+  background: rgba(128, 128, 128, 0.7);
+  padding: 40px 0;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .title-top{
@@ -48,7 +56,7 @@ body {
   font-size: 50px;
   font-weight: 650;
   text-align: center;
-  padding: 50px 0;
+  padding: 100px 0;
 }
 
 .profile-title-marker{
@@ -66,20 +74,20 @@ body {
 .profile-list{
   position: relative;
   background: #fff0cd;
-  box-shadow: 0px 0px 0px 5px #fff0cd;
-  border: dashed 2px white;
   padding: 40px 20px;
   color: #454545;
+  box-shadow: 2px 2px 4px gray;
 }
-.profile-list:after{
+
+.profile-list-border{
+  width: 98%;
+  height: 96%;
+  border: dashed 2px white;
   position: absolute;
-  content: '';
-  right: -7px;
-  top: -7px;
-  border-width: 0 15px 15px 0;
-  border-style: solid;
-  border-color: #ffdb88 #fff #ffdb88;
-  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+  top: 50%;
+  left: 50%;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
 }
 
 .profile-name-form{
@@ -129,13 +137,27 @@ body {
   padding: 30px 0 30px 50px;
   margin-left: 40px;
   background: #f5f5f5;
+  box-shadow: 2px 2px 4px gray;
+  position: relative;
 }
+
+.profile-detail-border{
+  width: 98%;
+  height: 96%;
+  border: solid 2px white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+}
+
 
 .estate-main-headline{
   font-size: 50px;
   font-weight: 650;
   text-align: center;
-  margin: 100px 0;
+  margin: 150px 0 100px 0;
   background: #b22222;
   color: white;
   padding: 20px 0;
@@ -144,7 +166,7 @@ body {
 .estate-area{
   width: 1200px;
   height: 500px;
-  margin: 0 auto;
+  margin: 0 auto 100px;
   position: relative;
 }
 
@@ -157,11 +179,11 @@ body {
   position: absolute;
   top: 10px;
   z-index: 9999;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .estate-detail-title{
   width: 500px;
-  background: gray;
   position: absolute;
   top: 170px;
   text-align: center;
@@ -169,7 +191,6 @@ body {
 
 .estate-detail{
   width: 500px;
-  background: red;
   position: absolute;
   top: 200px;
   line-height: 120%;
@@ -178,10 +199,11 @@ body {
 .estate-img{
   width: 600px;
   height: 400px;
-  background: blue;
+  background-image: url('/Users/zenshigeryoji/projects/portfolio/img/estate-top.jpg');
   position: absolute;
   top: 50px;
   right: 0;
+  box-shadow: 2px 2px 4px gray;
 }
 
 .estate-skill-form{
@@ -198,12 +220,13 @@ body {
   width: 400px;
   margin-right: 20px;
   background: #f0fff0;
+  box-shadow: 2px 2px 4px gray;
 }
 
 .estate-skill1-img{
   width: 400px;
   height: 300px;
-  background: blue;
+  background-image: url('/Users/zenshigeryoji/projects/portfolio/img/sales.jpg');
 }
 
 .estate-skill1-headline{
@@ -222,12 +245,13 @@ body {
 .estate-skill2{
   width: 400px;
   background: #f0fff0;
+  box-shadow: 2px 2px 4px gray;
 }
 
 .estate-skill2-img{
   width: 400px;
   height: 300px;
-  background: blue;
+  background-image: url('/Users/zenshigeryoji/projects/portfolio/img/relationship.jpg');
 }
 
 .estate-skill2-headline{
@@ -247,12 +271,13 @@ body {
   width: 400px;
   margin-left: 20px;
   background: #f0fff0;
+  box-shadow: 2px 2px 4px gray;
 }
 
 .estate-skill3-img{
   width: 400px;
   height: 300px;
-  background: blue;
+  background-image: url('/Users/zenshigeryoji/projects/portfolio/img/claim.jpg');
 }
 
 .estate-skill3-headline{
@@ -272,7 +297,7 @@ body {
   font-size: 50px;
   font-weight: 650;
   text-align: center;
-  margin: 100px 0;
+  margin: 150px 0 100px 0;
   background: #4169e1;
   color: white;
   padding: 20px 0;
@@ -294,11 +319,11 @@ body {
   position: absolute;
   top: 10px;
   z-index: 9999;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .pro-detail-title{
   width: 500px;
-  background: gray;
   position: absolute;
   top: 170px;
   text-align: center;
@@ -306,7 +331,6 @@ body {
 
 .pro-detail{
   width: 500px;
-  background: red;
   position: absolute;
   top: 200px;
   line-height: 120%;
@@ -315,17 +339,41 @@ body {
 .pro-img{
   width: 600px;
   height: 400px;
-  background: blue;
+  background-image: url('/Users/zenshigeryoji/projects/portfolio/img/programming.jpg');
   position: absolute;
   top: 50px;
   right: 0;
+  box-shadow: 2px 2px 4px gray;
 }
 
-.skillbar{
+.skillbar-form{
   width: 1200px;
-  height: 300px;
   margin: 0 auto;
-  background: orange;
+  background: #E7E9DE;
+  padding-bottom: 20px;
+  box-shadow: 2px 2px 4px gray;
+}
+
+.skillbar-headline{
+  font-size: 26px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.skillbar-inner{
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+}
+
+
+.skillbar-left{
+  width: 500px;
+}
+
+.skillbar-right{
+  width: 500px;
+  margin-left: 50px;
 }
 
 .work-main-headline{
@@ -353,6 +401,7 @@ body {
   width: 400px;
   margin-right: 40px;
   background: #f0fff0;
+  box-shadow: 2px 2px 4px gray;
 }
 
 .furima{
@@ -369,6 +418,7 @@ body {
 .app-right{
   width: 400px;
   background: #f0fff0;
+  box-shadow: 2px 2px 4px gray;
 }
 
 .plando{
