@@ -6,6 +6,22 @@ body {
   background-image: url("/Users/zenshigeryoji/projects/portfolio/img/b065.gif");
 }
 
+.marker_water {
+  background: linear-gradient(transparent 60%, #66ccff 60%);
+}
+
+.marker_yellow{
+  background:linear-gradient(transparent 75%, #fff799 75%);
+}
+
+.marker_lime {
+  background: linear-gradient(transparent 60%, #7fff7f 60%);
+}
+
+.marker_orange{
+  background:linear-gradient(transparent 60%, #ffce9e 60%);
+}
+
 .title-area{
   height: 100vh;
   background-image: url('/Users/zenshigeryoji/projects/portfolio/img/top-image.jpg');
@@ -56,11 +72,7 @@ body {
   font-size: 50px;
   font-weight: 650;
   text-align: center;
-  padding: 100px 0;
-}
-
-.profile-title-marker{
-  background:linear-gradient(transparent 75%, #fff799 75%);
+  padding: 50px 0;
 }
 
 .profile-form{
@@ -157,7 +169,7 @@ body {
   font-size: 50px;
   font-weight: 650;
   text-align: center;
-  margin: 150px 0 100px 0;
+  margin: 100px 0 100px 0;
   background: #b22222;
   color: white;
   padding: 20px 0;
@@ -166,7 +178,7 @@ body {
 .estate-area{
   width: 1200px;
   height: 500px;
-  margin: 0 auto 100px;
+  margin: 0 auto;
   position: relative;
 }
 
@@ -297,7 +309,7 @@ body {
   font-size: 50px;
   font-weight: 650;
   text-align: center;
-  margin: 150px 0 100px 0;
+  margin: 100px 0 100px 0;
   background: #4169e1;
   color: white;
   padding: 20px 0;
@@ -358,11 +370,13 @@ body {
   font-size: 26px;
   padding: 20px 0;
   text-align: center;
+  background: #4169e1;
+  color: white;
 }
 
 .skillbar-inner{
   width: 1000px;
-  margin: 0 auto;
+  margin: 20px auto 0;
   display: flex;
 }
 
