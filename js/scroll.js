@@ -1,6 +1,7 @@
 $(function() {
+  $('.menu-form').hide().delay(1500).fadeIn('slow');
   $('.title').hide().delay(500).fadeIn('slow');
-  $('.bottom-arrow').hide().delay(1200).fadeIn('slow');
+  $('.bottom-arrow').hide().delay(1500).fadeIn('slow');
 });
 
 window.addEventListener('DOMContentLoaded', function(){
