@@ -1,0 +1,332 @@
+.furima-top-area{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.furima-title{
+  width: 400px;
+  height: 100px;
+  font-size: 50px;
+  font-weight: 650;
+  text-align: center;
+  line-height: 100px;
+  margin: 50px auto;
+  position: relative;
+  overflow: hidden;
+  background: white;
+}
+
+.furima-title-border-top{
+  position: absolute;
+  width: 400px;
+  height: 100px;
+  border-top: solid 1px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+}
+
+.furima-title-border-right{
+  position: absolute;
+  width: 400px;
+  height: 100px;
+  border-right: solid 1px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+}
+
+.furima-title-border-bottom{
+  position: absolute;
+  width: 400px;
+  height: 100px;
+  border-bottom: solid 1px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+}
+
+.furima-title-border-left{
+  position: absolute;
+  width: 400px;
+  height: 100px;
+  border-left: solid 1px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+}
+
+.furima-top-form{
+  display: flex;
+}
+
+.furima-top-img{
+  width: 600px;
+  height: 400px;
+  background-image: url('../img/furima.png');
+  background-size: cover;
+}
+
+.furima-top-explanation{
+  width: 600px;
+  background: #FBFBF0;
+  color: #505066;
+  padding-left: 20px;
+  padding-top: 60px;
+}
+
+.furima-top-table{
+}
+
+.furima-top-table th{
+  width: 20%;
+  font-weight: normal;
+  padding-top: 30px;
+  padding-right:5px;
+  text-align: right;
+}
+
+.furima-top-table td{
+  padding-top: 30px;
+}
+
+.furima-top-table-left{
+  margin-left: 5px;
+}
+
+.furima-app-link-form{
+  width: 1200px;
+  margin: 0 auto 100px;
+  background: #f5f5f5;
+  color: #454545;
+  padding:30px 20px;
+}
+
+.furima-app-link{
+  width: 600px;
+  height: 50px;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  margin: 0 auto;
+}
+
+.furima-app-link-text{
+  padding: 15px 30px;
+  background: #00bfff;
+  box-shadow: 2px 2px 4px gray;
+}
+
+.furima-app-link-text:hover{
+  opacity: 0.7;
+}
+
+.furima-app-link i{
+  padding-right: 10px;
+}
+
+.furima-app-link-border{
+  width: 90%;
+  margin: 30px auto;
+  border: solid 1px #454545;
+}
+
+.furima-app-link-info{
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin: 20px auto 0;
+}
+
+.furima-app-user{
+  padding: 5px 0;
+  line-height: 24px;
+}
+
+.furima-function-headline{
+  font-size: 50px;
+  font-weight: 650;
+  text-align: center;
+  margin-bottom: 100px;
+  background: #5D86FF;
+  color: white;
+  padding: 20px 0;
+}
+
+.furima-function-area{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.explanation-title{
+  text-align: center;
+  margin: 10px 0;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.furima-function-form1{
+  display: flex;
+}
+
+.furima-function-form1-img{
+  width: 600px;
+  height: 400px;
+  background-image: url('../img/furima1.gif');
+  background-size: cover;
+}
+
+.furima-function-form1-explanation{
+  width: 600px;
+  height: 400px;
+  background: #E7E9DE;
+  color: #505066;
+  line-height: 24px;
+  padding:5px 20px;
+}
+
+.furima-function-form2{
+  display: flex;
+  margin-top: 50px;
+}
+
+.furima-function-form2-img{
+  width: 600px;
+  height: 400px;
+  background-image: url('../img/furima2.gif');
+  background-size: cover;
+}
+
+.furima-function-form2-explanation{
+  width: 600px;
+  height: 400px;
+  background: #E7E9DE;
+  color: #505066;
+  line-height: 24px;
+  padding:5px 20px;
+}
+
+.furima-function-form3{
+  display: flex;
+  margin: 50px 0 100px;
+}
+
+.furima-function-form3-img{
+  width: 600px;
+  height: 400px;
+  background-image: url('../img/furima3.gif');
+  background-size: cover;
+}
+
+.furima-function-form3-explanation{
+  width: 600px;
+  height: 400px;
+  background: #E7E9DE;
+  color: #505066;
+  line-height: 24px;
+  padding:5px 20px;
+}
+
+.furima-myself-headline{
+  font-size: 50px;
+  font-weight: 650;
+  text-align: center;
+  margin-bottom: 100px;
+  background: #F0BC08;
+  color: white;
+  padding: 20px 0;
+}
+
+.furima-myself-area{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.furima-myself-form1{
+  display: flex;
+}
+
+.furima-myself-form1-img{
+  width: 600px;
+  height: 400px;
+  background-image: url('../img/furima4.gif');
+  background-size: cover;
+}
+
+.furima-myself-form1-explanation{
+  width: 600px;
+  height: 400px;
+  background: #E7E9DE;
+  color: #505066;
+  line-height: 24px;
+  padding:5px 20px;
+}
+
+.furima-myself-form2{
+  display: flex;
+  margin-top: 50px;
+}
+
+.furima-myself-form2-img{
+  width: 600px;
+  height: 400px;
+  background-image: url('../img/furima5.gif');
+  background-size: cover;
+}
+
+.furima-myself-form2-explanation{
+  width: 600px;
+  height: 400px;
+  background: #E7E9DE;
+  color: #505066;
+  line-height: 24px;
+  padding:5px 20px;
+}
+
+.furima-myself-form3{
+  display: flex;
+  margin: 50px 0;
+}
+
+.furima-myself-form3-img{
+  width: 600px;
+  height: 400px;
+  background-image: url('../img/furima6.gif');
+  background-size: cover;
+}
+
+.furima-myself-form3-explanation{
+  width: 600px;
+  height: 400px;
+  background: #E7E9DE;
+  color: #505066;
+  line-height: 24px;
+  padding:5px 20px;
+}
+
+.furima-myself-form4{
+  display: flex;
+  margin: 50px 0;
+}
+
+.furima-myself-form4-img{
+  width: 600px;
+  height: 400px;
+  background-image: url('../img/mtg-image.jpg');
+  background-size: cover;
+}
+
+.furima-myself-form4-explanation{
+  width: 600px;
+  height: 400px;
+  background: #E7E9DE;
+  color: #505066;
+  line-height: 24px;
+  padding:5px 20px;
+}
