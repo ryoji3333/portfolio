@@ -13,13 +13,20 @@ window.addEventListener('DOMContentLoaded', function(){
 });
 
 window.addEventListener('DOMContentLoaded', function(){
-  ScrollReveal().reveal('.profile-title',{
+  ScrollReveal().reveal('.profile-title,.furima-title,.plando-title',{
     delay: 500,
   });
 });
 
 window.addEventListener('DOMContentLoaded', function(){
-  ScrollReveal().reveal('.profile-title-border-top',{
+  ScrollReveal().reveal('.furima-top-form,.furima-app-link-form,.furima-function-area,.furima-myself-area,.plando-top-form,.plando-app-link-form,.plando-function-area,.plando-myself-area',{
+    delay: 1000,
+    duration: 1500,
+  });
+});
+
+window.addEventListener('DOMContentLoaded', function(){
+  ScrollReveal().reveal('.profile-title-border-top,.furima-title-border-top,.plando-title-border-top',{
     delay: 900,
     duration: 1000,
     distance: '400px',
@@ -28,7 +35,7 @@ window.addEventListener('DOMContentLoaded', function(){
 });
 
 window.addEventListener('DOMContentLoaded', function(){
-  ScrollReveal().reveal('.profile-title-border-right',{
+  ScrollReveal().reveal('.profile-title-border-right,.furima-title-border-right,.plando-title-border-right',{
     delay: 900,
     duration: 1000,
     distance: '400px',
@@ -37,7 +44,7 @@ window.addEventListener('DOMContentLoaded', function(){
 });
 
 window.addEventListener('DOMContentLoaded', function(){
-  ScrollReveal().reveal('.profile-title-border-bottom',{
+  ScrollReveal().reveal('.profile-title-border-bottom,.furima-title-border-bottom,.plando-title-border-bottom',{
     delay: 900,
     duration: 1000,
     distance: '400px',
@@ -46,7 +53,7 @@ window.addEventListener('DOMContentLoaded', function(){
 });
 
 window.addEventListener('DOMContentLoaded', function(){
-  ScrollReveal().reveal('.profile-title-border-left',{
+  ScrollReveal().reveal('.profile-title-border-left,.furima-title-border-left,.plando-title-border-left',{
     delay: 900,
     duration: 1000,
     distance: '400px',
@@ -76,7 +83,7 @@ window.addEventListener('DOMContentLoaded', function(){
 });
 
 window.addEventListener('DOMContentLoaded', function(){
-  ScrollReveal().reveal('.estate-main-headline,.pro-main-headline,.work-main-headline',{
+  ScrollReveal().reveal('.estate-main-headline,.pro-main-headline,.work-main-headline,.furima-function-headline,.furima-myself-headline,.plando-function-headline,.plando-myself-headline',{
     delay: 700,
     distance: '400px',
     origin: 'right'

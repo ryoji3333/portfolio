@@ -3,7 +3,7 @@
 }
 
 body {
-  background-image: url("/Users/zenshigeryoji/projects/portfolio/img/b065.gif");
+  background-image: url("../img/b065.gif");
   overflow-x: hidden;
 }
 
@@ -29,7 +29,7 @@ body {
 
 .title-area{
   height: 100vh;
-  background-image: url('/Users/zenshigeryoji/projects/portfolio/img/top-image.jpg');
+  background-image: url('../img/top-image.jpg');
   background-size: cover;
   position: relative;
 }
@@ -269,7 +269,7 @@ body {
 .estate-img{
   width: 600px;
   height: 400px;
-  background-image: url('/Users/zenshigeryoji/projects/portfolio/img/estate-top.jpg');
+  background-image: url('../img/estate-top.jpg');
   position: absolute;
   top: 50px;
   right: 0;
@@ -294,7 +294,7 @@ body {
 .estate-skill1-img{
   width: 400px;
   height: 300px;
-  background-image: url('/Users/zenshigeryoji/projects/portfolio/img/sales.jpg');
+  background-image: url('../img/sales.jpg');
   background-size: cover;
 }
 
@@ -320,7 +320,7 @@ body {
 .estate-skill2-img{
   width: 400px;
   height: 300px;
-  background-image: url('/Users/zenshigeryoji/projects/portfolio/img/relationship.jpg');
+  background-image: url('../img/relationship.jpg');
   background-size: cover;
 }
 
@@ -347,7 +347,7 @@ body {
 .estate-skill3-img{
   width: 400px;
   height: 300px;
-  background-image: url('/Users/zenshigeryoji/projects/portfolio/img/claim.jpg');
+  background-image: url('../img/claim.jpg');
   background-size: cover;
 }
 
@@ -410,7 +410,7 @@ body {
 .pro-img{
   width: 600px;
   height: 400px;
-  background-image: url('/Users/zenshigeryoji/projects/portfolio/img/programming.jpg');
+  background-image: url('../img/programming.jpg');
   background-size: cover;
   position: absolute;
   top: 50px;
@@ -483,7 +483,7 @@ body {
 .furima{
   width: 400px;
   height: 300px;
-  background-image: url('/Users/zenshigeryoji/projects/portfolio/img/furima.png');
+  background-image: url('../img/furima.png');
   background-size: cover;
 }
 
@@ -500,13 +500,22 @@ body {
   margin: 0 auto 15px;
   text-align: center;
   line-height: 50px;
-  color: white;
-  background: #F0BC08;
   font-size: 22px;
 }
 
 .furima-link i{
   margin-right: 10px;
+}
+
+.furima-link-text{
+  padding: 15px 30px;
+  background: #F0BC08;
+  color: white;
+  box-shadow: 2px 2px 4px gray;
+}
+
+.furima-link-text:hover{
+  opacity: 0.7;
 }
 
 .app-right{
@@ -518,7 +527,7 @@ body {
 .plando{
   width: 400px;
   height: 300px;
-  background-image: url('/Users/zenshigeryoji/projects/portfolio/img/plando.png');
+  background-image: url('../img/plando.png');
   background-size: cover;
 }
 
@@ -534,13 +543,22 @@ body {
   margin: 0 auto 15px;
   text-align: center;
   line-height: 50px;
-  color: white;
-  background: #F0BC08;
   font-size: 22px;
 }
 
 .plando-link i{
   margin-right: 10px;
+}
+
+.plando-link-text{
+  padding: 15px 30px;
+  background: #F0BC08;
+  color: white;
+  box-shadow: 2px 2px 4px gray;
+}
+
+.plando-link-text:hover{
+  opacity: 0.7;
 }
 
 .footer{
